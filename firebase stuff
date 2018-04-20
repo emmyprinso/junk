@@ -42,3 +42,10 @@ firebase serve              //start running the firebase app
 firebase init functions               //create a function and start a folder for the functions
 
 const functions = required("firebase-functions");               //adding firebase functions to your app
+
+
+const functions = required("firebase-admin");
+
+
+
+
