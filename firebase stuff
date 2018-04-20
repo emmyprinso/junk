@@ -21,6 +21,8 @@ firebase init hosting              // navigate to the folder you want to use for
 // when the execution has completed
 
 
+
+
 firebase serve                      //this will serve the firebase app locally on a port probably localhost:5000
 firebase deploy                     //this will deploy our app to the internet and return to us a valid url that is accessible on the internet
 
@@ -37,3 +39,6 @@ firebase serve              //start running the firebase app
 
 
 
+firebase init functions               //create a function and start a folder for the functions
+
+const functions = required("firebase-functions");               //adding firebase functions to your app
