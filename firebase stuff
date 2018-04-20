@@ -1,4 +1,7 @@
 # junk
+#Resouce video https://www.youtube.com/watch?v=9kRgVxULbag
+
+
 
 npm install firebase-tools -g      //this will install the fools needed for firebase 
 
@@ -16,4 +19,21 @@ firebase init hosting              // navigate to the folder you want to use for
 
 //notice the defer keyword in the import this will restrict the importattion to occur only
 // when the execution has completed
+
+
+firebase serve                      //this will serve the firebase app locally on a port probably localhost:5000
+firebase deploy                     //this will deploy our app to the internet and return to us a valid url that is accessible on the internet
+
+
+
+//remember that when you execute the <firebase init hosting> a folder was created with some files and folders 
+//Now to create a file eg <app.js> use the following command
+
+touch public/app.js         //where public is the folder where the app.js file reside
+
+firebase serve              //start running the firebase app
+
+//for login with google of other account check the resource video from 7mins
+
+
 
