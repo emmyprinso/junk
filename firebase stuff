@@ -2,3 +2,18 @@
 
 npm install firebase-tools -g      //this will install the fools needed for firebase 
 
+
+
+firebase init hosting              // navigate to the folder you want to use for firebase stuff and run this command
+
+//to import the firebase web SDK to the index.js file you need the following lines of code
+<script defer src="/__/firebase/4.10.1/firebase-app.js"></script>
+<script defer src="/__/firebase/4.10.1/firebase-auth.js"></script>
+<script defer src="/__/firebase/4.10.1/firebase-database.js"></script>
+<script defer src="/__/firebase/4.10.1/firebase-messaging.js"></script>
+<script defer src="/__/firebase/4.10.1/firebase-storage.js"></script>
+<script defer src="/__/firebase/4.10.1/init.js"></script>
+
+//notice the defer keyword in the import this will restrict the importattion to occur only
+// when the execution has completed
+
